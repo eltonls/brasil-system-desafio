@@ -1,5 +1,5 @@
 class Main
-  puts 'Please insert your name: '
-  name = gets
-  puts('Your name: ' + name + 'Length: ' + name.length.to_s)
+  puts 'Escreva seu nome:'
+  nome = gets
+  print nome.length.to_s + ' Caracteres: ' + nome
 end
